@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="al_muslim_preferences.preferences_pb" />
+        <exclude domain="database" path="al_muslim_db" />
+        <exclude domain="sharedpref" path="al_muslim_auth" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="al_muslim_preferences.preferences_pb" />
+        <include domain="database" path="al_muslim_db" />
+        <exclude domain="sharedpref" path="al_muslim_auth" />
+    </device-transfer>
+</data-extraction-rules>

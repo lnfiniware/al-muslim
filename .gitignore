@@ -1,0 +1,55 @@
+# Android
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+android-app/local.properties
+android-app/.idea/
+android-app/*.iml
+android-app/app/*.iml
+android-app/captures/
+android-app/.externalNativeBuild/
+android-app/.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Django
+backend-django/__pycache__/
+backend-django/**/__pycache__/
+backend-django/*.pyc
+backend-django/db.sqlite3
+backend-django/staticfiles/
+backend-django/.env
+backend-django/venv/
+backend-django/env/
+
+# React Native (legacy -- keep for reference but don't track build output)
+react version/node_modules/
+react version/.expo/
+react version/dist/
+
+# General
+*.log
+*.tmp
+.env
+.env.local

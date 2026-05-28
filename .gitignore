@@ -18,6 +18,7 @@ android-app/.cxx/
 .gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
+!android-app/gradle/wrapper/gradle-wrapper.jar
 
 # IDE
 .idea/

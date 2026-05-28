@@ -17,8 +17,8 @@ android {
         applicationId = "com.almuslim.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 3
-        versionName = "1.2.1"
+        versionCode = 4
+        versionName = "1.3.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
@@ -33,7 +33,7 @@ android {
 
         // Build config for API base URL
         buildConfigField("String", "API_BASE_URL", "\"https://api.almuslim.app/\"")
-        buildConfigField("String", "APP_VERSION", "\"1.2.1\"")
+        buildConfigField("String", "APP_VERSION", "\"1.3.0\"")
     }
 
     signingConfigs {

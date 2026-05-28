@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Al-Muslim - A minimal, private, and premium offline Islamic companion for Android. Access prayer times, read the Quran, track Adhkar, and locate the Qiblah.">
+    <title>Al-Muslim — Private Islamic Companion</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar-wrapper">
+        <nav class="navbar" id="main-nav">
+            <div class="nav-container">
+                <a href="#" class="brand">
+                    <span class="brand-accent">Al</span>-Muslim
+                </a>
+                <ul class="nav-links" id="nav-menu">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#privacy" class="nav-link">Privacy</a></li>
+                    <li><a href="#download" class="btn btn-secondary">Download APK</a></li>
+                </ul>
+                <button class="menu-toggle" id="menu-btn" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge">Version 1.3.0 Released</div>
+                <h1>A Beautiful, Private Companion for Every Muslim</h1>
+                <p>Al-Muslim is a modern, premium Islamic dashboard built with native Kotlin. Keep track of prayer times, read the Holy Quran, count your Adhkar, and navigate to the Qiblah with zero ads, zero tracking, and complete offline capability.</p>
+                <div class="hero-actions">
+                    <a href="./al-muslim-v1.3.0.apk" class="btn btn-primary">Download v1.3.0 APK</a>
+                    <a href="#features" class="btn btn-outline">Explore Features</a>
+                </div>
+            </div>
+            <div class="hero-illustration">
+                <div class="mockup-frame">
+                    <div class="mockup-header">
+                        <div class="mockup-notch"></div>
+                    </div>
+                    <div class="mockup-screen">
+                        <div class="app-dashboard">
+                            <div class="app-header">
+                                <span class="app-location">Cairo, Egypt</span>
+                                <span class="app-hijri">15 Dhu al-Hijjah 1447</span>
+                            </div>
+                            <div class="app-countdown">
+                                <span class="app-next-label">Next: Dhuhr</span>
+                                <span class="app-timer">02:45:18</span>
+                                <span class="app-prayer-time">Dhuhr at 12:02 PM</span>
+                            </div>
+                            <div class="app-prayers-grid">
+                                <div class="app-prayer-card">
+                                    <span class="p-name">Fajr</span>
+                                    <span class="p-time">04:12 AM</span>
+                                </div>
+                                <div class="app-prayer-card active">
+                                    <span class="p-name">Sunrise</span>
+                                    <span class="p-time">05:48 AM</span>
+                                </div>
+                                <div class="app-prayer-card">
+                                    <span class="p-name">Dhuhr</span>
+                                    <span class="p-time">12:02 PM</span>
+                                </div>
+                                <div class="app-prayer-card">
+                                    <span class="p-name">Asr</span>
+                                    <span class="p-time">03:38 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Features Grid -->
+    <section class="features" id="features">
+        <div class="section-container">
+            <div class="section-header">
+                <h2>Built Upon Core Pillars</h2>
+                <p>Designed for simplicity, speed, and standard Android guidelines.</p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🕌</div>
+                    <h3>Precision Prayer Times</h3>
+                    <p>Highly accurate coordinates-based calculation methods (using the robust Adhan library) supporting multiple schools of thought and regional adjustments.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h3>Holy Quran Reader</h3>
+                    <p>Access all 114 Surahs with complete Arabic text and English translations. Highlight, search, and bookmark verses for effortless recitation.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🤲</div>
+                    <h3>Categorized Adhkar</h3>
+                    <p>Includes Morning, Evening, Before Sleep, and After Prayer remembrances. Keep track of daily repetitions using built-in interactive tap counters.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🧭</div>
+                    <h3>Qiblah Compass</h3>
+                    <p>Determine the exact direction of the Kaaba relative to your geographic coordinates using high-fidelity local device magnetometer sensors.</p>
+                </div>
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📅</div>
+                    <h3>Islamic Calendar</h3>
+                    <p>View complete Hijri calendar details and map important dates directly alongside your daily prayer calculation tables.</p>
+                </div>
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Local-First Database</h3>
+                    <p>Your spiritual journey belongs to you. Built with Room SQLite database for instant speeds and absolute security — zero server sync required.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture / About -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Native. Performant. Open Source.</h2>
+                    <p>Al-Muslim is crafted carefully in basic, clean Kotlin using Jetpack Compose and modern Android architecture. It features modularized components, reactive viewmodels, structured Hilt dependency injection, and WorkManager background scheduling for highly efficient updates.</p>
+                    <p>Unlike massive apps filled with trackers, advertisements, and continuous background syncs, Al-Muslim remains highly compact, lighting fast, and respectfull of your device battery life.</p>
+                    <div class="tech-specs">
+                        <div class="spec-item">
+                            <span class="spec-val">100%</span>
+                            <span class="spec-lbl">Offline SQLite</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-val">Zero</span>
+                            <span class="spec-lbl">Ads & Trackers</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-val">Kotlin</span>
+                            <span class="spec-lbl">Native UI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Banner -->
+    <section class="privacy" id="privacy">
+        <div class="privacy-container">
+            <h2>Your Privacy is Our Core Mission</h2>
+            <p>Al-Muslim operates entirely on your physical device. We do not use third-party cloud services, trackers, analytics, or external advertisements. Your location is processed solely on-device to compute high-precision prayer schedules, ensuring absolute data sovereignty.</p>
+        </div>
+    </section>
+
+    <!-- Download CTA Section -->
+    <section class="download" id="download">
+        <div class="download-container">
+            <h2>Download Al-Muslim</h2>
+            <p>Get the latest native version v1.3.0 directly. Simple, safe, and ready to install.</p>
+            <div class="download-actions">
+                <a href="./al-muslim-v1.3.0.apk" class="btn btn-secondary btn-large">Download Android APK (v1.3.0)</a>
+            </div>
+            <p class="download-small">Requires Android 8.0 (API 26) or higher. Size ~85MB.</p>
+        </div>
+    </section>
+
+    <!-- Curved Footer -->
+    <footer class="footer-wrapper">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="brand-accent">Al</span>-Muslim
+            </div>
+            <p class="footer-desc">A premium, private Islamic companion application built with Kotlin for Android.</p>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Al-Muslim Project. Released under the GNU GPL v3 License.</p>
+                <p>Designed with absolute respect for user privacy.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Navbar JS Script -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuBtn.addEventListener('click', () => {
+            menuBtn.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu on link click
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                menuBtn.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>

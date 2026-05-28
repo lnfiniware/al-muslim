@@ -2,7 +2,7 @@
 
 A free, open-source Islamic companion app built with privacy, simplicity, speed, and trust in mind.
 
-**Version**: 1.2.1  
+**Version**: 1.3.0 
 **Developer**: Zyad Mohamed  
 **Organization**: Infiniware
 
@@ -77,7 +77,7 @@ cd backend-django/docker
 docker-compose up -d
 ```
 
-## Bug Fixes (v1.2.1)
+## Bug Fixes (v1.3.0)
 
 | Bug | Description | Fix |
 |-----|------------|-----|
